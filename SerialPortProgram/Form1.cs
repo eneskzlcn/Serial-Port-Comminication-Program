@@ -107,5 +107,15 @@
         {
 
         }
+
+        private void SendingMessageBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ClearBTN_Click(object sender, EventArgs e)
+        {
+            ReceivedStrings.Items.Clear();
+        }
     }
     }
